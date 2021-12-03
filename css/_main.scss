@@ -1,0 +1,135 @@
+@import "variables";
+@import "fonts";
+@import "buttons";
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $mainFont;
+}
+
+h1{
+  font-weight: 600;
+  font-size: $mainHeading;
+  text-align: center;
+  color: $white;
+  margin-top: 150px;
+
+  @media screen and (max-width: 1281px){
+    font-size: $sectionHeading;
+  }
+}
+h2{
+  font-weight: bold;
+  font-size: $sectionHeading;
+  text-align: left;
+
+  @media screen and (max-width: 1281px){
+    font-size: $paragraphHeading;
+  }
+}
+h3{
+  font-weight: bold;
+  font-size: $paragraphHeading;
+  text-align: left;
+
+  @media screen and (max-width: 1281px){
+    font-size: $spanSize;
+  }
+}
+
+.white-title{
+  color: $whiteTitle;
+}
+
+.middleBlue-title{
+  color: $middleBlue;
+}
+.yellow-title{
+  color: $yellowTitle;
+}
+.darkBlue-title{
+  color: $darkBlue;
+}
+.lightBlue-title{
+  color: $lightBlueTitle;
+}
+.orange-title{
+  color: $orangeTitle;
+}
+.pink-title{
+  color: $pinkTitle;
+}
+.pink-heading{
+  color: $pink;
+}
+.blue-title{
+  color: $blue;
+}
+.blue-for-box-title{
+  color: $blueForBox;
+}
+.purple-title{
+  color: $purple;
+}
+.gray-title{
+  color: $gray;
+}
+
+.black{
+  color: $black;
+}
+.middle-Blue{
+  background-color: $middleBlue;
+}
+.yellow{
+  background-color: $yellow;
+}
+.dark-blue{
+  background-color: $darkBlue;
+}
+.blue-for-box{
+  background-color: $blueForBox;
+}
+.light-blue{
+  background-color: $lightBlue;
+}
+.orange{
+  background-color: $orange;
+}
+.pink{
+  background-color: $pink;
+}
+.blue{
+  background-color: $blue;
+}
+.purple{
+  background-color: $purple;
+}
+
+.fixed-width{
+  width: 570px;
+
+  @media screen and (max-width: 1281px){
+   width: auto;
+  }
+}
+.no-top-margin{
+  margin-top: 0 !important;
+}
+.additional-margin{
+  margin: 0 0 15px 0 !important;
+}
+.box-border{
+  border: 1px solid $grayBorder;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top: none;
+  padding: 0 15px 15px 15px;
+  height: 200px;
+}
+.no-padding{
+  padding: 0 !important;
+}
